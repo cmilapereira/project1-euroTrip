@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eurotrip</title>
+    <link rel="stylesheet" href="eurotrip.css">
+</head>
+<body>
+    <head>
+        <h1>Encontre sua EuroTrip!</h1>
+    </head>
+    <section>
+        <div>
+            <h4>Veja o país europeu que mais combina com a sua viagem<br>de acordo com clima no seu mês de viagem e também o tipo de viagem</br></h4>
+        </div>
+         <div>
+           <p>
+            <label for="month">Mês da viagem:</label>
+            <select id="month" name="month">
+                <option value="01">Janeiro</option>
+                <option value="02">Fevereiro</option>
+                <option value="03">Março</option>
+                <option value="04">Abril</option>
+                <option value="05">Maio</option>
+                <option value="06">Junho</option>
+                <option value="07">Julho</option>
+                <option value="08">Agosto</option>
+                <option value="09">Setembro</option>
+                <option value="10">Outubro</option>
+                <option value="11">Novembro</option>
+                <option value="12">Dezembro</option>
+            </select>
+           </p>
+           <p>
+            Tipo de Viagem:
+            <input type="radio" name="tipo" id="mox">
+            <label for="mox">Sozinhx</label>
+            <input type="radio" name="tipo" id="mig">
+            <label for="mig">Com Amigxs</label>
+            <input type="radio" name="tipo" id="cal">
+            <label for="cal">Casal</label>
+            <input type="radio" name="tipo" id="fam">
+            <label for="fam">Família</label>
+           </p>
+           <p>
+            <input type="button" value="Analizar" onclick="analizar()">
+           </p>
+         </div>
+         <div id="res">
+            
+         </div>
+    </section>
+    <footer>
+          <p> &copy; CamilaSPereira</p>
+    </footer>
+    <script src="eurotrip.js"></script>
+    
+</body>
+</html>
